@@ -1,0 +1,31 @@
+{
+  "name": "portfolio-page",
+  "version": "1.0.0",
+  "description": "Personal portfolio of Aadarsh Gupta — designer and full-stack developer.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aadarsh-gupta0/portfolio-page.git"
+  },
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Aadarsh-gupta0/portfolio-page/issues"
+  },
+  "homepage": "https://github.com/Aadarsh-gupta0/portfolio-page#readme",
+  "dependencies": {
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@vitejs/plugin-react": "^6.0.5",
+    "tailwindcss": "^4.3.3",
+    "vite": "^8.2.0"
+  },
+  "private": true
+}
