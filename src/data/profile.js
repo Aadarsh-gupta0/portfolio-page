@@ -10,8 +10,8 @@ export const profile = {
   // Already public on the GitHub profile, so safe to surface here.
   email: 'aadarshgupta.ag2006@gmail.com',
   github: 'https://github.com/Aadarsh-gupta0',
-  // TODO(aadarsh): drop your real LinkedIn URL in here.
-  linkedin: '',
+  linkedin: 'https://linkedin.com/in/aadarshgupta01',
+  instagram: 'https://instagram.com/aadarsh._.gupta01',
   resume: '',
 }
 
