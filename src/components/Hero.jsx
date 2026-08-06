@@ -51,8 +51,18 @@ export default function Hero() {
               </svg>
             </a>
             <a
-              href={`mailto:${profile.email}`}
+              href={profile.resumeRequest}
               className="inline-flex items-center gap-2 rounded-xl border border-white/14 px-6 py-3.5 text-sm font-semibold text-paper transition hover:border-violet-brand/50 hover:bg-white/5"
+            >
+              <svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.7">
+                <rect x="1.5" y="3" width="13" height="10" rx="2" />
+                <path d="m2 4.5 6 4 6-4" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+              Request résumé
+            </a>
+            <a
+              href={`mailto:${profile.email}`}
+              className="inline-flex items-center gap-2 rounded-xl px-2 py-3.5 text-sm font-semibold text-muted transition hover:text-paper"
             >
               Get in touch
             </a>

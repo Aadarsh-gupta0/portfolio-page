@@ -38,11 +38,19 @@ npm run preview   # serve the built output locally
    `REGISTRY` there and reference it.
 3. Set `featured: true` for the wide two-column treatment, `false` for the compact grid.
 
-## Still to fill in
+## The résumé
 
-- `profile.linkedin` in `src/data/profile.js` is empty — the LinkedIn button stays hidden
-  until it has a URL.
-- `profile.resume` is unused so far; wire it to a hosted PDF if you want a résumé button.
+**The PDF is deliberately not in this repo.** It carries a personal phone number, and
+anything committed here is public forever — git history included. Instead, the hero and the
+education card link to `profile.resumeRequest`, a `mailto:` that opens a "Resume request"
+email, and Aadarsh sends the file directly.
+
+If a phone-free version ever exists and you want it downloadable, put it in `public/` and
+point `resumeRequest` at `` `${import.meta.env.BASE_URL}<filename>.pdf` `` instead — the
+button copy is the only other thing to change.
+
+The current PDF is also a few revisions stale; see the open issue on this repo for what
+needs correcting.
 
 ## Deploy to GitHub Pages
 

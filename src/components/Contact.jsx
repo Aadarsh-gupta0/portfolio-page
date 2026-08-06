@@ -22,7 +22,8 @@ export default function Contact() {
 
           <p className="mx-auto mt-5 max-w-xl text-base leading-relaxed text-muted">
             I'm looking for internships and freelance work where design and engineering aren't two
-            separate jobs. If that sounds like your team, my inbox is open.
+            separate jobs. If that sounds like your team, my inbox is open — and the résumé goes
+            out to anyone who asks.
           </p>
 
           <div className="mt-10 flex flex-wrap items-center justify-center gap-3">
@@ -54,6 +55,9 @@ export default function Contact() {
                 rel="noreferrer"
                 className="inline-flex items-center gap-2 rounded-xl border border-white/14 px-7 py-4 text-sm font-semibold text-paper transition hover:border-violet-brand/50 hover:bg-white/5"
               >
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden>
+                  <path d="M3.4 5.5h2.3V14H3.4V5.5Zm1.15-3.7a1.35 1.35 0 1 1 0 2.7 1.35 1.35 0 0 1 0-2.7ZM7.3 5.5h2.2v1.17h.03c.31-.58 1.06-1.2 2.18-1.2 2.33 0 2.76 1.5 2.76 3.45V14h-2.3V9.38c0-1.1-.02-2.52-1.55-2.52-1.55 0-1.79 1.2-1.79 2.44V14H7.3V5.5Z" />
+                </svg>
                 LinkedIn
               </a>
             )}
